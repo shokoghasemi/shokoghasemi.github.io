@@ -1,0 +1,45 @@
+
+
+body{
+    background-color: white;
+}
+.navbar-header{
+    background-color: lightgray;
+}
+.row div div{
+    background-color: lightpink;
+}
+#nav-list a{
+    color: white;
+    font-weight: bold;
+    border-bottom:1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: -1px;
+}
+
+#nav-list a:hover{
+    background: white;
+}
+.navbar-brand h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#main-content section {
+    background-color: grey;
+    padding-top:20px;
+}
+
+#collapsable-nav #nav-list li{
+    background-color: grey;
+}
+#collapsable-nav #nav-list a:hover{
+    background-color: teal;
+}
