@@ -1,56 +1,45 @@
+
+
 body{
-    margin:0;
-    padding: 0;
+    background-color: white;
 }
-h1 {
-    margin: 20px auto;
-    text-align: center;
+.navbar-header{
+    background-color: lightgray;
 }
-.main{
-    margin:0 5%;
+.row div div{
+    background-color: lightpink;
 }
-.main .sushi,.main .chicken, .main .beef{
-    margin:0 10px;
-    align-content: center;
-    display: inline-block;
-    max-width: 30%;
-    border:3px solid black;
-    background-color: gray;
+#nav-list a{
+    color: white;
+    font-weight: bold;
+    border-bottom:1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: -1px;
 }
-.main div h2{
-    margin: -3px -3px 5px 0;
-    padding: 3px 15px;
-    position: relative;
-    float: right;
-    border:3px solid black;
+
+#nav-list a:hover{
+    background: white;
 }
-.main div p{
-    clear: both;
-    margin: 10px 10px;
-   
+.navbar-brand h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.chicken h2{
-    background-color:goldenrod
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
 }
-.beef h2{
-    background-color: hotpink;
+
+#main-content section {
+    background-color: grey;
+    padding-top:20px;
 }
-.sushi h2{
-    background-color: khaki;
+
+#collapsable-nav #nav-list li{
+    background-color: grey;
 }
-@media only screen and (max-width: 922px) {
-   .beef,.chicken {
-      max-width: 40% !important;
-      margin: 20px 3% !important;
-    }
-    .sushi{max-width: 80% !important;
-    margin: 0 5% !important;}
-  }
-  @media only screen and (max-width: 767px) {
-     
-    .beef,.chicken ,.sushi{
-        max-width: 90% !important;
-        margin: 10px auto !important;
-      }
-      
-  }
+#collapsable-nav #nav-list a:hover{
+    background-color: teal;
+}
