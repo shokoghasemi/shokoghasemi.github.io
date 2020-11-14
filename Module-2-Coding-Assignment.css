@@ -1,5 +1,6 @@
 
 
+
 body{
     background-color: white;
 }
@@ -43,3 +44,4 @@ body{
 #collapsable-nav #nav-list a:hover{
     background-color: teal;
 }
+
