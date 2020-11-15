@@ -4,10 +4,11 @@
 var helloSpeaker;
  
 var speakWord = "Hello";
- 
-helloSpeaker.speak = (function (name) {
+ var helloSpeak=function (name) {
   console.log(speakWord + " " + name);
-})
+}
+ 
+helloSpeaker.speak = helloSpeak;
  
 window.helloSpeaker = helloSpeaker;
 })(window);
