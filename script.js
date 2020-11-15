@@ -14,7 +14,7 @@ for (var i in names) {
   if (firstLetter === 'j') {
     window.byeSpeaker.speak(names[i]);
   } else {
-    window.helloSpeaker.names[i];
+    window.helloSpeaker(names[i]);
   }
 }
 
